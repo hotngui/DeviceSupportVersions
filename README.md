@@ -2,6 +2,8 @@
 
 A lightweight macOS utility for managing Xcode's device support files — the cached symbols and metadata Xcode downloads for each physical device you connect. These files accumulate over time and can consume gigabytes of disk space.
 
+![DeviceSupportVersions transforms cryptic Xcode device support folder names into a clear, sortable table showing device names, OS versions, and build numbers](assets/DeviceSupportVersions.png)
+
 ## What It Does
 
 DeviceSupportVersions scans your `~/Library/Developer/Xcode/iOS DeviceSupport` folder (or any folder you choose) and displays all device support entries in a sortable table showing:
